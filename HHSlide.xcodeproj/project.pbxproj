@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD9F44F1FB42899003A0ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F44E1FB42899003A0ACE /* AppDelegate.m */; };
+		2DD9F4521FB42899003A0ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4511FB42899003A0ACE /* ViewController.m */; };
+		2DD9F4551FB42899003A0ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9F4531FB42899003A0ACE /* Main.storyboard */; };
+		2DD9F4571FB42899003A0ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9F4561FB42899003A0ACE /* Assets.xcassets */; };
+		2DD9F45A1FB42899003A0ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9F4581FB42899003A0ACE /* LaunchScreen.storyboard */; };
+		2DD9F45D1FB42899003A0ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F45C1FB42899003A0ACE /* main.m */; };
+		2DD9F4681FB428EE003A0ACE /* HHBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4671FB428EE003A0ACE /* HHBaseController.m */; };
+		2DD9F46B1FB42908003A0ACE /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F46A1FB42908003A0ACE /* HHNavigationController.m */; };
+		2DD9F46E1FB4291E003A0ACE /* HHMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F46D1FB4291E003A0ACE /* HHMainController.m */; };
+		2DD9F4871FB4296F003A0ACE /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4711FB4296F003A0ACE /* MLeakedObjectProxy.m */; };
+		2DD9F4881FB4296F003A0ACE /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4741FB4296F003A0ACE /* MLeaksMessenger.m */; };
+		2DD9F4891FB4296F003A0ACE /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4761FB4296F003A0ACE /* NSObject+MemoryLeak.m */; };
+		2DD9F48A1FB4296F003A0ACE /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4781FB4296F003A0ACE /* UIApplication+MemoryLeak.m */; };
+		2DD9F48B1FB4296F003A0ACE /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F47A1FB4296F003A0ACE /* UINavigationController+MemoryLeak.m */; };
+		2DD9F48C1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F47C1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.m */; };
+		2DD9F48D1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F47E1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.m */; };
+		2DD9F48E1FB4296F003A0ACE /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4801FB4296F003A0ACE /* UITabBarController+MemoryLeak.m */; };
+		2DD9F48F1FB4296F003A0ACE /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4821FB4296F003A0ACE /* UITouch+MemoryLeak.m */; };
+		2DD9F4901FB4296F003A0ACE /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4841FB4296F003A0ACE /* UIView+MemoryLeak.m */; };
+		2DD9F4911FB4296F003A0ACE /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4861FB4296F003A0ACE /* UIViewController+MemoryLeak.m */; };
+		2DD9F4941FB42A01003A0ACE /* HHAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4931FB42A01003A0ACE /* HHAnimateController.m */; };
+		2DD9F4971FB42A13003A0ACE /* HHOhterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F4961FB42A13003A0ACE /* HHOhterController.m */; };
+		2DD9F49D1FB42F91003A0ACE /* HHPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F49C1FB42F91003A0ACE /* HHPersonController.m */; };
+		2DD9F4A01FB430C6003A0ACE /* HHTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9F49F1FB430C6003A0ACE /* HHTestController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DD9F44A1FB42898003A0ACE /* HHSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD9F44D1FB42899003A0ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DD9F44E1FB42899003A0ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DD9F4501FB42899003A0ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DD9F4511FB42899003A0ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DD9F4541FB42899003A0ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DD9F4561FB42899003A0ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD9F4591FB42899003A0ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DD9F45B1FB42899003A0ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD9F45C1FB42899003A0ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DD9F4661FB428EE003A0ACE /* HHBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHBaseController.h; sourceTree = "<group>"; };
+		2DD9F4671FB428EE003A0ACE /* HHBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHBaseController.m; sourceTree = "<group>"; };
+		2DD9F4691FB42908003A0ACE /* HHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
+		2DD9F46A1FB42908003A0ACE /* HHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
+		2DD9F46C1FB4291E003A0ACE /* HHMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMainController.h; sourceTree = "<group>"; };
+		2DD9F46D1FB4291E003A0ACE /* HHMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMainController.m; sourceTree = "<group>"; };
+		2DD9F4701FB4296F003A0ACE /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		2DD9F4711FB4296F003A0ACE /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		2DD9F4721FB4296F003A0ACE /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		2DD9F4731FB4296F003A0ACE /* MLeaksMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksMessenger.h; sourceTree = "<group>"; };
+		2DD9F4741FB4296F003A0ACE /* MLeaksMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeaksMessenger.m; sourceTree = "<group>"; };
+		2DD9F4751FB4296F003A0ACE /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4761FB4296F003A0ACE /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4771FB4296F003A0ACE /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4781FB4296F003A0ACE /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4791FB4296F003A0ACE /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F47A1FB4296F003A0ACE /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F47B1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F47C1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F47D1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F47E1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F47F1FB4296F003A0ACE /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4801FB4296F003A0ACE /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4811FB4296F003A0ACE /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4821FB4296F003A0ACE /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4831FB4296F003A0ACE /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4841FB4296F003A0ACE /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4851FB4296F003A0ACE /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		2DD9F4861FB4296F003A0ACE /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2DD9F4921FB42A01003A0ACE /* HHAnimateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAnimateController.h; sourceTree = "<group>"; };
+		2DD9F4931FB42A01003A0ACE /* HHAnimateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAnimateController.m; sourceTree = "<group>"; };
+		2DD9F4951FB42A13003A0ACE /* HHOhterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHOhterController.h; sourceTree = "<group>"; };
+		2DD9F4961FB42A13003A0ACE /* HHOhterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHOhterController.m; sourceTree = "<group>"; };
+		2DD9F49B1FB42F91003A0ACE /* HHPersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPersonController.h; sourceTree = "<group>"; };
+		2DD9F49C1FB42F91003A0ACE /* HHPersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPersonController.m; sourceTree = "<group>"; };
+		2DD9F49E1FB430C6003A0ACE /* HHTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTestController.h; sourceTree = "<group>"; };
+		2DD9F49F1FB430C6003A0ACE /* HHTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTestController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD9F4471FB42898003A0ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD9F4411FB42898003A0ACE = {
+			isa = PBXGroup;
+			children = (
+				2DD9F4631FB428CF003A0ACE /* Code */,
+				2DD9F44C1FB42899003A0ACE /* HHSlide */,
+				2DD9F44B1FB42898003A0ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD9F44B1FB42898003A0ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F44A1FB42898003A0ACE /* HHSlide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD9F44C1FB42899003A0ACE /* HHSlide */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F44D1FB42899003A0ACE /* AppDelegate.h */,
+				2DD9F44E1FB42899003A0ACE /* AppDelegate.m */,
+				2DD9F4501FB42899003A0ACE /* ViewController.h */,
+				2DD9F4511FB42899003A0ACE /* ViewController.m */,
+				2DD9F4531FB42899003A0ACE /* Main.storyboard */,
+				2DD9F4561FB42899003A0ACE /* Assets.xcassets */,
+				2DD9F4581FB42899003A0ACE /* LaunchScreen.storyboard */,
+				2DD9F45B1FB42899003A0ACE /* Info.plist */,
+				2DD9F45C1FB42899003A0ACE /* main.m */,
+			);
+			path = HHSlide;
+			sourceTree = "<group>";
+		};
+		2DD9F4631FB428CF003A0ACE /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F4641FB428CF003A0ACE /* Controller */,
+				2DD9F4651FB428CF003A0ACE /* Util */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		2DD9F4641FB428CF003A0ACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F4661FB428EE003A0ACE /* HHBaseController.h */,
+				2DD9F4671FB428EE003A0ACE /* HHBaseController.m */,
+				2DD9F4691FB42908003A0ACE /* HHNavigationController.h */,
+				2DD9F46A1FB42908003A0ACE /* HHNavigationController.m */,
+				2DD9F46C1FB4291E003A0ACE /* HHMainController.h */,
+				2DD9F46D1FB4291E003A0ACE /* HHMainController.m */,
+				2DD9F4921FB42A01003A0ACE /* HHAnimateController.h */,
+				2DD9F4931FB42A01003A0ACE /* HHAnimateController.m */,
+				2DD9F49B1FB42F91003A0ACE /* HHPersonController.h */,
+				2DD9F49C1FB42F91003A0ACE /* HHPersonController.m */,
+				2DD9F49E1FB430C6003A0ACE /* HHTestController.h */,
+				2DD9F49F1FB430C6003A0ACE /* HHTestController.m */,
+				2DD9F4951FB42A13003A0ACE /* HHOhterController.h */,
+				2DD9F4961FB42A13003A0ACE /* HHOhterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DD9F4651FB428CF003A0ACE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F46F1FB4296F003A0ACE /* MLeaksFinder */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2DD9F46F1FB4296F003A0ACE /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9F4701FB4296F003A0ACE /* MLeakedObjectProxy.h */,
+				2DD9F4711FB4296F003A0ACE /* MLeakedObjectProxy.m */,
+				2DD9F4721FB4296F003A0ACE /* MLeaksFinder.h */,
+				2DD9F4731FB4296F003A0ACE /* MLeaksMessenger.h */,
+				2DD9F4741FB4296F003A0ACE /* MLeaksMessenger.m */,
+				2DD9F4751FB4296F003A0ACE /* NSObject+MemoryLeak.h */,
+				2DD9F4761FB4296F003A0ACE /* NSObject+MemoryLeak.m */,
+				2DD9F4771FB4296F003A0ACE /* UIApplication+MemoryLeak.h */,
+				2DD9F4781FB4296F003A0ACE /* UIApplication+MemoryLeak.m */,
+				2DD9F4791FB4296F003A0ACE /* UINavigationController+MemoryLeak.h */,
+				2DD9F47A1FB4296F003A0ACE /* UINavigationController+MemoryLeak.m */,
+				2DD9F47B1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.h */,
+				2DD9F47C1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.m */,
+				2DD9F47D1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.h */,
+				2DD9F47E1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.m */,
+				2DD9F47F1FB4296F003A0ACE /* UITabBarController+MemoryLeak.h */,
+				2DD9F4801FB4296F003A0ACE /* UITabBarController+MemoryLeak.m */,
+				2DD9F4811FB4296F003A0ACE /* UITouch+MemoryLeak.h */,
+				2DD9F4821FB4296F003A0ACE /* UITouch+MemoryLeak.m */,
+				2DD9F4831FB4296F003A0ACE /* UIView+MemoryLeak.h */,
+				2DD9F4841FB4296F003A0ACE /* UIView+MemoryLeak.m */,
+				2DD9F4851FB4296F003A0ACE /* UIViewController+MemoryLeak.h */,
+				2DD9F4861FB4296F003A0ACE /* UIViewController+MemoryLeak.m */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD9F4491FB42898003A0ACE /* HHSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD9F4601FB42899003A0ACE /* Build configuration list for PBXNativeTarget "HHSlide" */;
+			buildPhases = (
+				2DD9F4461FB42898003A0ACE /* Sources */,
+				2DD9F4471FB42898003A0ACE /* Frameworks */,
+				2DD9F4481FB42898003A0ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHSlide;
+			productName = HHSlide;
+			productReference = 2DD9F44A1FB42898003A0ACE /* HHSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD9F4421FB42898003A0ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = maoziyue;
+				TargetAttributes = {
+					2DD9F4491FB42898003A0ACE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DD9F4451FB42898003A0ACE /* Build configuration list for PBXProject "HHSlide" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD9F4411FB42898003A0ACE;
+			productRefGroup = 2DD9F44B1FB42898003A0ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD9F4491FB42898003A0ACE /* HHSlide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD9F4481FB42898003A0ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD9F45A1FB42899003A0ACE /* LaunchScreen.storyboard in Resources */,
+				2DD9F4571FB42899003A0ACE /* Assets.xcassets in Resources */,
+				2DD9F4551FB42899003A0ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD9F4461FB42898003A0ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD9F46B1FB42908003A0ACE /* HHNavigationController.m in Sources */,
+				2DD9F4941FB42A01003A0ACE /* HHAnimateController.m in Sources */,
+				2DD9F48C1FB4296F003A0ACE /* UIPageViewController+MemoryLeak.m in Sources */,
+				2DD9F4971FB42A13003A0ACE /* HHOhterController.m in Sources */,
+				2DD9F4891FB4296F003A0ACE /* NSObject+MemoryLeak.m in Sources */,
+				2DD9F48B1FB4296F003A0ACE /* UINavigationController+MemoryLeak.m in Sources */,
+				2DD9F4681FB428EE003A0ACE /* HHBaseController.m in Sources */,
+				2DD9F4881FB4296F003A0ACE /* MLeaksMessenger.m in Sources */,
+				2DD9F4A01FB430C6003A0ACE /* HHTestController.m in Sources */,
+				2DD9F48A1FB4296F003A0ACE /* UIApplication+MemoryLeak.m in Sources */,
+				2DD9F4521FB42899003A0ACE /* ViewController.m in Sources */,
+				2DD9F4901FB4296F003A0ACE /* UIView+MemoryLeak.m in Sources */,
+				2DD9F48F1FB4296F003A0ACE /* UITouch+MemoryLeak.m in Sources */,
+				2DD9F4911FB4296F003A0ACE /* UIViewController+MemoryLeak.m in Sources */,
+				2DD9F45D1FB42899003A0ACE /* main.m in Sources */,
+				2DD9F46E1FB4291E003A0ACE /* HHMainController.m in Sources */,
+				2DD9F49D1FB42F91003A0ACE /* HHPersonController.m in Sources */,
+				2DD9F4871FB4296F003A0ACE /* MLeakedObjectProxy.m in Sources */,
+				2DD9F44F1FB42899003A0ACE /* AppDelegate.m in Sources */,
+				2DD9F48D1FB4296F003A0ACE /* UISplitViewController+MemoryLeak.m in Sources */,
+				2DD9F48E1FB4296F003A0ACE /* UITabBarController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DD9F4531FB42899003A0ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD9F4541FB42899003A0ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DD9F4581FB42899003A0ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD9F4591FB42899003A0ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD9F45E1FB42899003A0ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DD9F45F1FB42899003A0ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD9F4611FB42899003A0ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				INFOPLIST_FILE = HHSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maoziyue.HHSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD9F4621FB42899003A0ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				INFOPLIST_FILE = HHSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maoziyue.HHSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD9F4451FB42898003A0ACE /* Build configuration list for PBXProject "HHSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD9F45E1FB42899003A0ACE /* Debug */,
+				2DD9F45F1FB42899003A0ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD9F4601FB42899003A0ACE /* Build configuration list for PBXNativeTarget "HHSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD9F4611FB42899003A0ACE /* Debug */,
+				2DD9F4621FB42899003A0ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD9F4421FB42898003A0ACE /* Project object */;
+}
